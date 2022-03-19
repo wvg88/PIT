@@ -1,18 +1,7 @@
 ---
-title: About
+title: Over
 permalink: "/about/"
 layout: page
 ---
 
-Changes. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Het practoraat interactieve technologie verkent innovatieve technologie zoals virtual reality en augmented reality om het MBO-onderwijs leuker en effectiever te maken. Hier kun je enkele voorbeelden en experimenten zien die gemaakt zijn door de leden. Je kunt sommige 3D modellen op je telefoon in augmented reality zien. Wat we met deze experimenten willen bereiken zijn manieren om leren effectiever en aantrekkelijk te maken voor het onderwijs van nu en de toekomst.
