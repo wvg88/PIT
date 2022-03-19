@@ -7,6 +7,12 @@
   // Positioning context for the mobile navigation icon
   position: relative;
 }
+#PIT_Logo{
+  display: flex;
+  position: relative;
+  height: $spacing-unit * 3;
+  width:210px;
+}
 
 .site-title {
   @include relative-font-size(1.625);
