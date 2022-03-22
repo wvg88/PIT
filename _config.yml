@@ -19,6 +19,8 @@ description: Welkom op de testpagina van de Kopgroep Interactieve Technologie. D
 baseurl: ''
 url: ''
 twitter_username: 
+linkedin_username: practoraatinteractievetechnologie
+instagram_username: pitvanroctilburg
 github_username: wvg88
 theme: minima
 plugins:
