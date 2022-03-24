@@ -8,6 +8,8 @@ collections:
   uploads:
     title: Uploads
     output: true
+  staff_members: 
+    output: true
 email: wvginneken@roctilburg.nl
 description: Welkom op de testpagina van de Kopgroep Interactieve Technologie. Deze
   kopgroep bestaat o.a. uit een groep docenten van het ROC Tilburg die experimenteren
