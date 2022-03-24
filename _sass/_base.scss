@@ -222,7 +222,25 @@ pre {
     padding-top: 5px;
   }
 }
+.sponsor-icon-list{
+  margin-left: 0;
+  list-style: none;
+  display: flex;
+}
+.mindlabs{
+  width:150px;
+  fill: #{$grey-color};
+  display: inline-block;
 
+}
+.mindlabs > .st0 {
+  fill:none;
+  stroke:#{$grey-color};
+}
+.roc{
+  width:150px;
+  fill: #{$grey-color};
+}
 /**
 * Modelviewer
  */
