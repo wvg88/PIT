@@ -5,10 +5,11 @@ collections:
   posts:
     title: Posts
     output: true
+  staff_members:
+    title: Staff Members
+    output: true
   uploads:
     title: Uploads
-    output: true
-  staff_members: 
     output: true
 email: wvginneken@roctilburg.nl
 description: Welkom op de testpagina van de Kopgroep Interactieve Technologie. Deze
