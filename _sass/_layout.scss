@@ -29,6 +29,9 @@
 }
 
 .site-nav {
+position: relative;
+margin-top:-150px;
+//right: 100px ;
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
 
@@ -52,6 +55,7 @@
 
   @include media-query($on-palm) {
     position: absolute;
+    margin-top:0px;
     top: 9px;
     right: $spacing-unit / 2;
     background-color: $background-color;
