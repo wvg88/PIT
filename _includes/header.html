@@ -3,8 +3,8 @@
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-   
-    <a class="site_title" rel="author" href="{{ "/" | relative_url }}">{%- include icon-PIT.html -%}{{ site.title | escape }}</a>
+    {%- include icon-PIT.html -%}
+    <a class="site_title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 
     {%- if page_paths -%}
       <nav class="site-nav">
@@ -34,4 +34,23 @@
       </nav>
     {%- endif -%}
   </div>
+  <script>
+    window.onscroll = function() {scrollFunction()};
+    let logo = document.getElementById("PIT_Logo");
+    let logo_small = false;
+    function scrollFunction() {
+
+      if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
+        if (logo_small==false)
+        {logo_small=true;
+          logo.classList.add("small");
+        }
+      }else{
+        if(logo_small==true)
+          {logo.classList.remove("small");}
+          logo_small=false;
+        }
+    }
+
+  </script>
 </header>
