@@ -16,4 +16,3 @@ Prototype in samenwerking met
 Ognyan Vrachanski\
 Myron Antonissen
 
-![862d56d8aebaf587cd8ccddded608c46.png](/uploads/862d56d8aebaf587cd8ccddded608c46.png)
