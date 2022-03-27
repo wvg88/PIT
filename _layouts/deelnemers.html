@@ -1,0 +1,22 @@
+---
+layout: default 
+---
+
+{%- if site.deelnemers.size > 0 -%}
+<!--<h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>-->
+<ul class="post-list">
+  {%- for deelnemer in site.deelnemers -%}
+  <li>
+    
+    <h3>
+      <a class="post-link" href="{{ deelnemer.url | relative_url }}">
+        <h6>{{ deelnemer.naam }} - {{ deelnemer.functie }}</h6>
+      </a>
+    </h3>
+    {%- if site.show_excerpts -%}
+      {{ deelnemer.excerpt }}
+    {%- endif -%}
+  </li>
+  {%- endfor -%}
+</ul>
+{% endif %}

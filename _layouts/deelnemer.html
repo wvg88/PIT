@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<article class="post">
+
+  <header class="post-header">
+
+    <h1 class="post-title">{{ page.naam | escape }}</h1>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>
+
+{% include 3d.html camera-target="0m 3m 0m" camera-orbit="45deg 45deg 4m"  fov="0.5deg"%}
+{%- include video.html -%}
