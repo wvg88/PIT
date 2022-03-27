@@ -1,7 +1,8 @@
 ---
+title: Wouter Van Ginneken
+date: 2022-03-27 12:24:00 Z
 naam: Wouter van Ginneken
 functie: Docent ICT & Mediatechnologie
-date: 2022-03-27 12:24:00 Z
 layout: deelnemer
 model: baking__shading_test/scene.gltf
 v-url: https://player.vimeo.com/video/666134215?h=329b7f6a99&title=0&byline=0&portrait=0&speed=0&badge=0&autopause=0&player_id=0&app_id=58479/embed
