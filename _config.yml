@@ -5,8 +5,8 @@ collections:
   posts:
     title: Posts
     output: true
-  staff_members:
-    title: Staff Members
+  deelnemers:
+    title: deelnemers
     output: true
   uploads:
     title: Uploads
