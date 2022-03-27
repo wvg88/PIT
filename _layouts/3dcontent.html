@@ -2,35 +2,23 @@
 layout: default
 ---
 
-<div id="3d">
-  {%- include modelviewer.html -%}
-    <!-- <model-viewer> HTML element -->
-    <model-viewer bounds="tight" enable-pan src="assets/{{ page.model }}" ar ar-modes="webxr scene-viewer quick-look" camera-controls environment-image="neutral"  shadow-intensity="1">
-      <div class="progress-bar hide" slot="progress-bar">
-          <div class="update-bar"></div>
-      </div>
-      <button slot="ar-button" id="ar-button">
-          View in your space
-      </button>
-    </model-viewer>  
-      </div>
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>
+
+{%- include 3d.html -%}
+
+
+
 
     
-    <script>
-      // Handles loading the events for <model-viewer>'s slotted progress bar
-      const onProgress = (event) => {
-        const progressBar = event.target.querySelector('.progress-bar');
-        const updatingBar = event.target.querySelector('.update-bar');
-        updatingBar.style.width = `${event.detail.totalProgress * 100}%`;
-        if (event.detail.totalProgress === 1) {
-          progressBar.classList.add('hide');
-        } else {
-          progressBar.classList.remove('hide');
-          if (event.detail.totalProgress === 0) {
-            event.target.querySelector('.center-pre-prompt').classList.add('hide');
-          }
-        }
-      };
-      document.querySelector('model-viewer').addEventListener('progress', onProgress);
-  </script>
+
 

@@ -14,11 +14,9 @@
             <svg viewBox="0 0 30 30" width="30px" height="30px">
              <!-- <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
             -->  
-<line class="1" fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="4.1" y1="7.3" x2="25.6" y2="7.3"/>
-<line class="2" fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="4.4" y1="15" x2="25.9" y2="15"/>
-<line class="3" fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="4.1" y1="22.8" x2="25.6" y2="22.8"/>
-
-
+              <line class="1" fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="4.1" y1="7.3" x2="25.6" y2="7.3"/>
+              <line class="2" fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="4.4" y1="15" x2="25.9" y2="15"/>
+              <line class="3" fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="4.1" y1="22.8" x2="25.6" y2="22.8"/>
             </svg>
           </span>
         </label>
@@ -34,23 +32,5 @@
       </nav>
     {%- endif -%}
   </div>
-  <script>
-    window.onscroll = function() {scrollFunction()};
-    let logo = document.getElementById("PIT_Logo");
-    let logo_small = false;
-    function scrollFunction() {
 
-      if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
-        if (logo_small==false)
-        {logo_small=true;
-          logo.classList.add("small");
-        }
-      }else{
-        if(logo_small==true)
-          {logo.classList.remove("small");}
-          logo_small=false;
-        }
-    }
-
-  </script>
 </header>

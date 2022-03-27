@@ -33,5 +33,40 @@
     </div>
 
   </div>
+  
+  <script>
+    window.onscroll = function() {scrollFunction()};
+    let PIT_logo = document.getElementById("PIT_Logo");
+    let PIT_logo_small = false;
+    function scrollFunction() {
 
+      if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
+        if (PIT_logo_small==false)
+        {PIT_logo_small=true;
+          PIT_logo.classList.add("small");
+        }
+      }else{
+        if(PIT_logo_small==true)
+          {PIT_logo.classList.remove("small");}
+          PIT_logo_small=false;
+        }
+    }
+
+  </script>
+  {% if page.model %}
+  <script>
+    // Handles loading the events for <model-viewer>'s slotted progress bar
+    const onProgress = (event) => {
+      const progressBar = event.target.querySelector('.progress-bar');
+      const updatingBar = event.target.querySelector('.update-bar');
+      updatingBar.style.width = `${event.detail.totalProgress * 100}%`;
+      if (event.detail.totalProgress === 1) {
+        progressBar.classList.add('hide');
+      } else {
+        progressBar.classList.remove('hide');
+      }
+    };
+    document.querySelector('model-viewer').addEventListener('progress', onProgress);
+</script>
+{% endif %}
 </footer>
