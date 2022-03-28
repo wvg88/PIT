@@ -3,7 +3,7 @@ title: Elmo Arrias
 date: 2022-03-28 18:21:00 Z
 naam: Elmo Arrias
 functie: Docent Procestechniek
-layout: deelnemer
+layout: elmo
 model: GlasReaktor.glb
 ---
 
